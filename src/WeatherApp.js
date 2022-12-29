@@ -1,13 +1,12 @@
-import './styles.css';
+import "./styles.css";
 import Form from "./Form.js";
 import AvailableCities from "./AvailableCities.js";
 import CurrentCity from "./CurrentCity.js";
 import MainWeather from "./MainWeather.js";
-import WeatherForecast from "./WeatherForecast.js";
+import WeatherForecast from "../../WeatherForecast.js";
 import Footer from "./Footer.js";
 
-
-function App() {
+export default function WeatherApp() {
   return (
     <div className="WeatherApp">
       <Form />
@@ -19,5 +18,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

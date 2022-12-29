@@ -1,0 +1,151 @@
+.WeatherApp {
+  display: block;
+  margin: 20px auto;
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  padding: 50px;
+  color: #e7eaf6;
+  background: linear-gradient(#1e549f, #5fc9f3);
+  border-radius: 12px;
+}
+
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #e7eaf6;
+  opacity: 0.6;
+}
+
+li a:hover {
+  opacity: 1;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+  border-radius: 15px;
+  border: #1e549f;
+}
+
+.search-button {
+  background: #448ef6;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border: #1e549f;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #1e549f;
+  transition: all 200ms ease-in-out;
+}
+
+#search-current-location {
+  background: #2772db;
+}
+
+button:hover {
+  color: white;
+  border: 1px solid #596e79;
+  transition: all 200ms ease-in-out;
+}
+
+.search-button:hover,
+#search-current-location:hover {
+  color: black;
+  background: #8dc6ff;
+  transition: all 200ms ease-in-out;
+}
+
+.current-temperature,
+.weather-description {
+  text-align: center;
+  font-size: 20px;
+}
+.weather-description {
+  margin-top: -15px;
+}
+
+#icon {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.day {
+  margin-top: 15px;
+}
+
+.date,
+.time,
+.day {
+  text-align: center;
+}
+
+#weather {
+  text-align: center;
+}
+
+.pressure {
+  margin-top: 15px;
+}
+
+.pressure,
+.humidity,
+.wind {
+  text-align: center;
+}
+
+.weather-forecast {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.icon-forecast {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.temp {
+  font-size: 12px;
+}
+
+.forecast-temperature-min {
+  opacity: 0.6;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.celsius,
+.fahrenheit {
+  color: #e7eaf6;
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #e7eaf6;
+}
